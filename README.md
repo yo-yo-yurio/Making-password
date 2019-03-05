@@ -1,6 +1,7 @@
 
 
 ![Platform windows](https://img.shields.io/badge/Platform-windows-lightgrey.svg)
+![Platform linux]
 ![Scrutinizer Build](https://img.shields.io/scrutinizer/build/g/filp/whoops.svg?style=flat-square)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)
 

@@ -25,7 +25,7 @@ def passMaker():
 
         if thisWord.lower() == 'y':
             thisWord = input('\nWhat words do you want to be in the password? ')
-            selectWord = input('\nWould you like the position word (random, scatter, static)? ')
+            selectWord = input('\nWhich type of word display do you want (random, scatter, static)? ')
             
             if selectWord.lower() == 'random':
                 password = ''.join(choice(chars() + thisWord) for i in range(0, passLen))

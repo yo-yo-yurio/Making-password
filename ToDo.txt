@@ -1,0 +1,13 @@
+$ Better DRY
+
+
+$ Having a better interface
+
+
+$ Having a better personalization
+
+
+$ Better "scatter" command
+
+
+$ Can be changed location of "static" command 

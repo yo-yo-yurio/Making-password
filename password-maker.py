@@ -56,8 +56,10 @@ passMaker()
 
 while True:
     redo = input('Would you like restart script (y, n(default))? ')
+    
     if redo == 'y':
         passMaker()
+        
     else:
         print('OK,\nBye Bye...')
         break

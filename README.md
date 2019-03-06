@@ -1,22 +1,38 @@
 
-
 ![Platform windows](https://img.shields.io/badge/Platform-windows-lightgrey.svg)
 ![Platform linux](https://img.shields.io/badge/Platform-linux-blue.svg)
-![Scrutinizer Build](https://img.shields.io/scrutinizer/build/g/filp/whoops.svg?style=flat-square)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)
 
 
-### installation guide
-
-* Prerequisite: python.3x
+## If you would like to read the ToDo file and add something to the script :)
 
 
-* If the file is compressed, unpack it
+
+## stupid guide :)
 
 
-## for windows
+* prerequisite: python.3x
 
-- download or clone script
+* if the file is compressed, unpack it
+
+
+### for linux
+
++ download script
+
+
++ open terminal
+
+
++ type `cd $HOME/Making-password`
+
+
++ type `python3 password-maker.py`
+
+
+### for windows
+
+- download script
 
 
 - move file Making-password-master to Desktop
@@ -31,32 +47,4 @@
 - type `cd Making-password`
 
 
-- type `password-maker.py`
-
-
-## for linux
-
-+ download or clone script
-
-
-+ open terminal
-
-
-+ type `cd $HOME/Making-password`
-
-
-+ type `python3 `
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- type `python3 password-maker.py`

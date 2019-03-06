@@ -5,14 +5,16 @@
 ![Scrutinizer Build](https://img.shields.io/scrutinizer/build/g/filp/whoops.svg?style=flat-square)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)
 
-<p align="center">
-  <a href=""><img width="300" src="https://mr-robot1.cf/root.png"></a>
+
+### installation guide
+
+* Prerequisite: python.3x
 
 
-* Prerequisite: Python.3x 
+* If the file is compressed, unpack it
 
-### for windows
 
+## for windows
 
 - download or clone script
 
@@ -26,14 +28,13 @@
 - type `cd Desktop`
 
 
-- type `cd Making-password-master`
+- type `cd Making-password`
 
 
-- type `"password make.py"`
+- type `password-maker.py`
 
 
-### for linux
-
+## for linux
 
 + download or clone script
 
@@ -41,10 +42,10 @@
 + open terminal
 
 
-+ type `cd $HOME`
++ type `cd $HOME/Making-password`
 
 
-+ type `cd `
++ type `python3 `
 
 
 

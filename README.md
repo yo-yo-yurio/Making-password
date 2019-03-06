@@ -9,13 +9,12 @@
   <a href=""><img width="300" src="https://mr-robot1.cf/root.png"></a>
 
 
+* Prerequisite: Python.3x 
+
 ### for windows
 
 
-# Prerequisite python 
-
-
-- download https://github.com/cisco-root/Making-password/archive/master.zip
+- download or clone script
 
 
 - move file Making-password-master to Desktop
@@ -31,4 +30,32 @@
 
 
 - type `"password make.py"`
+
+
+### for linux
+
+
++ download or clone script
+
+
++ open terminal
+
+
++ type `cd $HOME`
+
+
++ type `cd `
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -1,5 +1,5 @@
 
-
+![Platform linux](https://img.shields.io/badge/Platform-linux-blue.svg)
 ![Platform windows](https://img.shields.io/badge/Platform-windows-lightgrey.svg)
 ![Scrutinizer Build](https://img.shields.io/scrutinizer/build/g/filp/whoops.svg?style=flat-square)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)
@@ -8,7 +8,7 @@
   <a href=""><img width="300" src="https://mr-robot1.cf/root.png"></a>
 
 
-### for windows
+### for windows and linux
 
 
 # Prerequisite python 

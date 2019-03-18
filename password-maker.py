@@ -7,10 +7,7 @@ def clear():
     if platform == 'linux' or 'posix':
         system('clear')
     else:
-        try:
-            system('cls')
-        except:
-            pass
+        system('cls')
 
 def chars():
     charPass = ascii_letters + punctuation + digits
@@ -21,11 +18,11 @@ def passMaker():
 
     try:
         passLen = int(input('Enter length of password: '))
-        thisWord = input('\nDo you want to add more words in password (y, n(default))? ')
+        thisWord = input('\nDo you want to add more words in password (y, N)? ')
 
         if thisWord.lower() == 'y':
             thisWord = input('\nWhat words do you want to be in the password? ')
-            selectWord = input('\nWhich type of word display do you want (random, scatter, static)? ')
+            selectWord = input('\nWould you like the position word (random, scatter, static)? ')
             
             if selectWord.lower() == 'random':
                 password = ''.join(choice(chars() + thisWord) for i in range(0, passLen))
@@ -55,11 +52,9 @@ def passMaker():
 passMaker()
 
 while True:
-    redo = input('Would you like restart script (y, n(default))? ')
-    
-    if redo == 'y':
+    again = input('Would you like restart script (y, N)? ')
+    if again.lower() == 'y':
         passMaker()
-        
     else:
         print('OK,\nBye Bye...')
         break
